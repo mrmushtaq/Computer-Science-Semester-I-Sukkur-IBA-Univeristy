@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Application Form</title>
+</head>
+
+<body background="E:\LAB tasks Pf\ICT Tasks\HTML practice\MIT-D-Series.webp">
+
+    <div style="text-align: center;">
+        <img src="E:\LAB tasks Pf\ICT Tasks\HTML practice\paf logo.png" alt="Logo" style="width: 150px; height: 150px; border-radius: 50%; margin-top: 20px;">
+        <h2 style="color: white;">Registration Form</h2>
+    </div>
+
+    <form style="max-width: 400px; margin: 0 auto; background:gray; padding: 20px; border-radius: 10px;">
+        <label for="fname" style="font-size: 18px;">First Name:</label>
+        <input type="text" required style="width: 100%; padding: 8px; box-sizing: border-box; margin-bottom: 10px;">
+
+        <label for="lname" style="font-size: 18px;">Last Name:</label>
+        <input type="text" required style="width: 100%; padding: 8px; box-sizing: border-box; margin-bottom: 10px;">
+
+        <label for="email" style="font-size: 18px;">Email:</label>
+        <input type="email" required style="width: 100%; padding: 8px; box-sizing: border-box; margin-bottom: 10px;">
+
+        <label for="dob" style="font-size: 18px;">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required style="width: 100%; padding: 8px; box-sizing: border-box; margin-bottom: 10px;">
+
+        <label for="gender" style="font-size: 18px;">Gender:</label>
+        <br>
+        <input type="radio" name="gender" required>
+        <label style="font-size: 18px;"> Male </label>
+        <input type="radio" name="gender">
+        <label style="font-size: 18px;"> Female </label>
+        <input type="radio" name="gender">
+        <label style="font-size: 18px;"> Other </label>
+        <br><br>
+
+        <label for="Qualification" style="font-size: 18px;">Highest Qualification:</label>
+        <input type="text" required style="width: 100%; padding: 8px; box-sizing: border-box; margin-bottom: 10px;">
+
+        <label for="experience" style="font-size: 18px;">Work Experience (in years):</label>
+        <input type="number" required style="width: 100%; padding: 8px; box-sizing: border-box; margin-bottom: 10px;">
+
+        <label for="resume" style="font-size: 18px;">Upload Resume:</label>
+        <input type="file" accept=".pdf, .doc, .docx" required style="width: 100%; padding: 8px; box-sizing: border-box; margin-bottom: 10px;">
+
+        <input style="font-size: 18px; background-color: green; color: white; border: none; padding: 10px ; border-radius: 5px; cursor: pointer;" type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
